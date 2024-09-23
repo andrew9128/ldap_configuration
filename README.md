@@ -18,7 +18,6 @@ LDAP_SERVER=ldap://openldap:389
 
 4. **Запуск Docker-контейнеров:**
 ```bash
-Копировать код
 docker-compose up -d
 ```
 
