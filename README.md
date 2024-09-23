@@ -6,7 +6,7 @@
 git clone https://github.com/your_username/LAM_LDAP.git
 cd LAM_LDAP
 ```
-3. **Установка зависимостей**
+2. **Установка зависимостей**
 
 ```bash
 pip install -r lpad_php/requirements.txt
