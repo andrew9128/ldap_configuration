@@ -34,3 +34,9 @@ http://localhost:5010
 ```bash
 http://localhost:8081
 ```
+
+**логин/пароль от Web-app**
+admin/admin_pass
+
+**логин/пароль от phpLDAPadmin**
+cn=admin,dc=alibnr,dc=com/admin_pass
