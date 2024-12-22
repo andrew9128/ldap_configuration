@@ -23,9 +23,9 @@ def check_and_create_ou(conn, ou_dn):
 
 def create_user(conn, username, password, group):
     gid_map = {
-        'ИКТК-11': 1011,
-        'ИКТК-12': 1012,
-        'ИКТК-03': 1003,
+        'Group1': 1011,
+        'Group2': 1012,
+        'Group3': 1003,
     }
     gid_number = gid_map.get(group, 1000)
     uid_number = random.randint(10000, 99999)
